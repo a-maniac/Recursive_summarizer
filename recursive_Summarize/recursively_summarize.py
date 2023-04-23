@@ -4,7 +4,7 @@ from time import time,sleep
 import textwrap
 import re
 
-openai.api_key = "e20282dfcc514cc2ab4cf15e1722469c"
+openai.api_key = "your end point"
 openai.api_base =  "https://wpb-am.openai.azure.com/" # your endpoint should look like the following https://YOUR_RESOURCE_NAME.openai.azure.com/
 openai.api_type = 'azure'
 openai.api_version = '2022-12-01' # this may change in the future
